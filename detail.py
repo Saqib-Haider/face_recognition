@@ -196,7 +196,7 @@ class Details:
 
         takep_btn = Button(btn_frame1,text="Capture Photo",command =self.generate_data,font=("Sans Serif",12,"bold"),bg="black",fg="white",cursor="hand2",width=27)
         takep_btn.grid(row=0,column=0)
-        updatep_btn = Button(btn_frame1,text="Upadate Captured Photo",font=("Sans Serif",12,"bold"),bg="black",fg="white",cursor="hand2",width=27)
+        updatep_btn = Button(btn_frame1,text="Upadate Captured Photo",command =self.generate_data,font=("Sans Serif",12,"bold"),bg="black",fg="white",cursor="hand2",width=27)
         updatep_btn.grid(row=0,column=1)
 
     def toggle_geom(self,event):
